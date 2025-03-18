@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>邱建勳簡介</title>
+	<style type="text/css">
+
+		* { font-family:"標楷體"; margin-left:auto; margin-right:auto;}
+
+		h1 {color:blue; font-size:60px;}
+
+		h2 {color:#33ff33; font-size:40px;}
+        .col-lg-4 {border: 1px solid;}
+
+	</style>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+	<script>
+
+function change1() {
+
+document.getElementById("pic").src = "mountain.jpg";
+
+document.getElementById("h2text").innerText = "靜宜資管";
+
+}
+
+function change2() {
+
+document.getElementById("pic").src = "cliff.jpg";
+
+document.getElementById("h2text").innerText = "Tzyy-Ching Yang";
+
+}
+
+</script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg bg-light">
+    <a class="navbar-brand">導覽列</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ITEMS">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+<div class="collapse navbar-collapse" id="ITEMS">
+    <ul class="navbar-nav">
+<li class="nav-item">
+    <a href="#qiu">關於我</a>
+    </li>
+<li class="nav-item">
+    <a href="#soundtrack">電影配樂</a>
+     </li>
+<li class="nav-item">
+    <a href="#youtube"class="nav-link active">推薦影片</a>
+ </li>
+</ul>
+</div>
+</nav>
+		<main class="container-fluid bg-primary text-white text-center">
+
+			<img src="cliff.jpg"class="img-fluid rounded-circle" width="50%"
+			onmouseover="change1()" onmouseout="change2()"></img>
+			
+			
+				<h1>邱建勳</h1>
+				<h2 id="h2text">Qiu Jianxun</h2>
+		<div class="row">
+
+			<section class="col-lg-4">
+
+<h3 id = "qiu Jianxun">邱建勳(Qiu Jianxun)</h3>
+	靜宜網頁：<a href="https://www1.pu.edu.tw/~tcyang"></a><br><
+
+	FB：<a href="https://www.facebook.com/ray930911"class="text-decoration-none text-white bg-info" ></a><br>
+	target="_blank">https://www.facebook.com/ray930911</a><br>
+	Tel: <a href="tel:0426328001,18110"class="text-decoration-none text-white bg-info" >04-26328001#18110</a><br>
+
+	E-Mail: <a href="mailto:kevin2235417@gmail.com"class="text-decoration-none text-white bg-info" >kevin2235417@gmail.com</a><br>
+
+	</section>
+
+	
+	<section class="col-lg-4">
+	<h3 id = "soundtrack">電影配樂</h3>
+		大象席地而坐電影配樂<br>
+		</section>
+
+
+
+	<audio controls>
+
+	<source src="elephant.mp3" type="audio/mP3">
+
+	</audio><br>
+
+	
+
+	<h3 id = "youtube">推薦影片</h3>
+
+	不要去臺灣<br>
+    <div class="ratio ratio-16x9">
+
+	<iframe src="https://www.youtube.com/embed/pW88QFpHXa8" allowfullscreen>
+        
+                </iframe>
+        </div>
+	</main>
+
+	<footer>
+		Copyright ©  楊子青. All Rights Reserved.
+	</footer>
+
+
+	
+
+	
+
+	<iframe
+    allow="microphone;"
+    width="350"
+    height="430"
+    src="https://console.dialogflow.com/api-client/demo/embedded/9a2fb6dc-34b2-465b-b0bf-8b77f821b70c">
+</iframe>
+
+
+
+		
+	
+	
+	
+
+
+</body>
+<?php echo date("Y-m-d") ?>
+</html>
